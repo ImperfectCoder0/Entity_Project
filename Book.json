@@ -1,0 +1,30 @@
+{
+  "weapon_tiers": {
+      "1": "Sorrowed",
+      "2": "Reaper",
+      "3": "Ghost",
+      "4": "Galaxy",
+      "5": "Generation",
+      "6": "Elder",
+      "7": "Latin"
+  },
+  "armor_tiers": {
+      "normal": {
+
+          "1": "Metal",
+          "2": "Steel",
+          "3": "Cold",
+          "4": "Pure Cold",
+          "5": "Dark",
+          "6": "Pure Dark",
+          "7": "Latin"
+      },
+      "self-magic": {
+          "1": "Cocoon",
+          "2": "Healer"
+      },
+
+      "magic": "Master"
+
+  }
+}
