@@ -13,18 +13,32 @@
 
           "1": "Metal",
           "2": "Steel",
-          "3": "Cold",
-          "4": "Pure Cold",
-          "5": "Dark",
-          "6": "Pure Dark",
-          "7": "Latin"
+          "3A": "Light",
+          "3B": "Dark",
+          "4A": "Pure Light",
+          "4B": "Pure Dark",
+          "5A": "Latin",
+          "5B": "Dark Latin"
       },
       "self-magic": {
           "1": "Cocoon",
-          "2": "Healer"
+          "2": "Healer",
+          "3": "Reviver",
+          "4": "Soul Holder",
+          "5": "Latin"
+
       },
 
-      "magic": "Master"
+      "magic": {
+          "1A": "Fire",
+          "1B": "Earth",
+          "2A": "Air",
+          "2B": "Water",
+          "2C": "Space",
+          "3A": "Elementary",
+          "3B": "Dark Elementary",
+          "3C": "Glitched",
+      }
 
   }
 }

@@ -44,11 +44,8 @@ id_dict = {
     38: "Custodis Arcus",  # Warden's Bow
     39: "",
 
-
 }
 
-
-# 39 ->
 
 
 
@@ -75,10 +72,30 @@ class Inventory_Item:
         self.quantity = quantity
         self.effect = effect
         self.dmg = dmg
-
         if durability is not None: self.durability = durability
 
-
     def use(self, effects):
-
         pass
+
+
+class Upgradable(Inventory_Item):
+    def __init__(self, tier: int, type_: str, id_, quantity, effect, durability, dmg):
+        super().__init__(id_, quantity, effect, durability, dmg)
+        p_types = ["Sword", "Spear", "Bow", "Arrow",
+                   "Headguard", "Chestpiece", "Leggings", "Boots"]
+        if type_ in p_types:
+            self.tier = tier
+            self.type = type_
+
+
+class Light(Upgradable):
+    def purify(self): pass
+
+
+class Dark(Upgradable):
+    def darken(self): pass
+
+
+class Glitched(Upgradable):
+    def corrupt(self): pass
+    def convert(self): pass
