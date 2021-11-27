@@ -1,43 +1,36 @@
 {
   "weapon_tiers": {
-      "1": "Sorrowed",
-      "2": "Reaper",
-      "3": "Ghost",
-      "4": "Galaxy",
-      "5": "Generation",
-      "6": "Elder",
-      "7": "Latin"
+      "1": "Broken",
+      "2": "Basic",
+      "3A": "Ghost",       "3B": "Galaxy",
+      "4A": "Generation",  "4B": "X-Generation", "4C": "Light Soul", "4D": "Dark Soul",
+      "5A": "Elder",       "5B": "Dark Elder",   "5C": "Pure Soul",  "5D": "Withered Soul",
+      "6A": "Light Latin", "6B": "Dark Latin",   "6C": "Soul Latin", "6D": "Withered Latin"
   },
   "armor_tiers": {
       "normal": {
 
           "1": "Metal",
           "2": "Steel",
-          "3A": "Light",
-          "3B": "Dark",
-          "4A": "Pure Light",
-          "4B": "Pure Dark",
-          "5A": "Latin",
-          "5B": "Dark Latin"
+          "3A": "Light",       "3B": "Dark",
+          "4A": "Pure Light",  "4B": "Pure Dark",
+          "5A": "Light Latin", "5B": "Dark Latin"
       },
       "self-magic": {
           "1": "Cocoon",
           "2": "Healer",
           "3": "Reviver",
-          "4": "Soul Holder",
-          "5": "Latin"
+          "4": "Vampire",
+          "5": "Soul Vampire",
+          "6": "Healer's Latin"
 
       },
 
       "magic": {
-          "1A": "Fire",
-          "1B": "Earth",
-          "2A": "Air",
-          "2B": "Water",
-          "2C": "Space",
-          "3A": "Elementary",
-          "3B": "Dark Elementary",
-          "3C": "Glitched",
+          "1A": "Fire",                "1B": "Earth",
+          "2A": "Air",                 "2B": "Water",                "2C": "Space",
+          "3A": "Light Elementary",    "3B": "Dark Elementary",      "3C": "Glorified Elementary",
+          "4A": "Purified Elementary", "4B": "Darkified Elementary", "4C": "Intensive Elementary"
       }
 
   }
